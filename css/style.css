@@ -12,17 +12,16 @@
   padding: 10px;
 }
 /* main */
-.bg-main img{
+.bg-main img {
   position: relative;
   width: 100%;
 }
-.graduate{
+.graduate {
   position: absolute;
   display: flex;
- left: 900px;
-top:215px;
-  justify-content:end ;
-
+  left: 900px;
+  top: 215px;
+  justify-content: end;
 }
 .txt-main {
   position: absolute;
@@ -30,16 +29,16 @@ top:215px;
   left: 50px;
   color: #325372;
 }
-.txt-main p{
-  color:#6C6C6C;
+.txt-main p {
+  color: #6c6c6c;
   padding: 10px;
 }
-.txt-main h1{
+.txt-main h1 {
   font-weight: 700;
   font-size: 50px;
 }
-.btn-apply{
-  background-color:#325372;
+.btn-apply {
+  background-color: #325372;
   color: white;
   border: none;
   padding-left: 25px;
@@ -143,20 +142,18 @@ top:215px;
 .heehe ul li {
   list-style-type: none;
 }
-.img-about img{
+.img-about img {
   position: relative;
   width: 100%;
 }
-.home-abt-txt{
+.home-abt-txt {
   background-color: #cfe8f5;
   display: flex;
   /* text-align:right !important; */
   padding-left: 20px;
 }
-.home-abt-txt p{
-
+.home-abt-txt p {
 }
-
 
 .txt-about {
   position: absolute;
@@ -223,7 +220,7 @@ top:215px;
     bottom: 280px;
     left: 200px;
   }
-  .hostes{
+  .hostes {
     width: 0;
     height: 0;
   }
@@ -376,12 +373,12 @@ top:215px;
   font-weight: 400;
   font-size: 30px;
 }
-.text-center h3{
-color: #325372;
-font-weight: 900;
-font-size: 40px;
+.text-center h3 {
+  color: #325372;
+  font-weight: 900;
+  font-size: 40px;
 }
-.text-center{
+.text-center {
   color: #5c9cbf;
 }
 
@@ -467,7 +464,7 @@ font-size: 40px;
   margin-bottom: 40px;
 }
 
-.contact-details { 
+.contact-details {
   align-items: center;
 }
 
@@ -519,6 +516,8 @@ font-size: 40px;
   position: relative;
 }
 /* footer */
+.footer{
+  background-color:#f3fbff;
 .logo-2 {
   width: 207px;
   height: 101px;
@@ -531,6 +530,17 @@ font-size: 40px;
   gap: 10px;
   padding-left: 15px;
 }
-.quick-links{
-  text-decoration: none;
+.quick-links ul li{
+  list-style-type: none;
+  padding: 10px;
+}
+.study-abroad ul li{
+  list-style-type: none;
+    padding: 10px;
+
+}
+.details ul li{
+  list-style-type: none;
+    padding: 7px;
+
 }

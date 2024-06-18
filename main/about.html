@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> about us</title>
-         <link rel="stylesheet" href="../css/style.css">
-          <link
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> about us</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style.css"> <!--double css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
     integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,10 +23,10 @@
     crossorigin="anonymous"></script>
 
 </head>
+
 <body>
-     <section>
+  <section>
     <div class="top-header">
-      <!-- <div class="info-description"> -->
       <div class="content-1">
         <i class="ri-global-line"></i>
         <p>secrecrutingagencyuk.com</p>
@@ -38,7 +39,6 @@
         <i class="ri-mail-fill"></i>
         <p>info@secrecrutingagencyuk.com</p>
       </div>
-      <!-- </div> -->
 
       <div class="socials">
         <i class="ri-twitter-fill"></i>
@@ -61,7 +61,7 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <div class="nav-contents">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../home.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="../main/">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="../main/about.html">About Us</a>
@@ -85,46 +85,61 @@
     </nav>
   </section>
 
-    <!-- about section -->
+  <!-- about section -->
 
   <section>
-      <div class="img-about ">
-    <img src="../images/Rectangle 60.jpg" alt="">
-    <div class="txt-about">
+    <div class="img-about ">
+      <img src="../images/Rectangle 60.jpg" alt="">
+      <div class="txt-about">
         <p>ABOUT US</p>
-         </div>
-         <div class="home-abt-txt">
-            <!-- <div class="container"> -->
-            <p class="">Home <i class="ri-arrow-left-wide-line"></i> About us </p>
+      </div>
+      <div class="home-abt-txt">
+        <!-- <div class="container"> -->
+        <p class="">Home <i class="ri-arrow-left-wide-line"></i> About us </p>
         <!-- </div> -->
-        </div>
-    <div class="container">
-      <div class="row py-lg-5">
-        <div class="col-lg-5">
-          <div class="flight">
-            <img src="../images/flight.jpg" alt="">
-          </div>
-          <div class="hostes">
-            <img src="../images/hostes.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-7">
-          <div class="sec-txt">
-            <div class="sec-txt-head">
-              <h3>About SEC Abroad Education</h3>
+      </div>
+      <div class="container">
+        <div class="row py-lg-5">
+          <div class="col-lg-5">
+            <div class="flight">
+              <img src="../images/flight.jpg" alt="">
+
+              <img src="../images/hostes.jpg" class="hostes-img" alt="">
             </div>
-            <div class="sec-txt-bdy">
-              <p>We provides most reliable counseling on study, career & migration services.</p>
-              <p>Maximax Education and Visa Services, is a counseling firm managed by some of
-                the top professionals of the industry, provides you with most reliable counseling
-                on study, career and migration including visa services. We believe that one
-                decision can change your life and we want to make sure that decision is never
-                wrong.</p>
+          </div>
+          <div class="col-lg-7">
+            <div class="sec-txt">
+              <div class="sec-txt-head">
+                <h3>About SEC Abroad Education</h3>
+              </div>
+              <div class="sec-txt-bdy">
+                <p>We provides most reliable counseling on study, career & migration services.</p>
+                <p>Maximax Education and Visa Services, is a counseling firm managed by some of
+                  the top professionals of the industry, provides you with most reliable counseling
+                  on study, career and migration including visa services. We believe that one
+                  decision can change your life and we want to make sure that decision is never
+                  wrong.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-        </div>
   </section>
+  <style>
+    .flight {
+      position: relative !important;
+    }
+
+    .hostes-img {
+      position: absolute !important;
+      bottom: -150px;
+      right: -150px;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      border-radius: 10px;
+    }
+  </style>
 </body>
+
 </html>
