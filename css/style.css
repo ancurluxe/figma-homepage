@@ -152,8 +152,7 @@
   /* text-align:right !important; */
   padding-left: 20px;
 }
-.home-abt-txt p {
-}
+
 
 .txt-about {
   position: absolute;
@@ -204,8 +203,18 @@
 }
 
 .building img {
-  width: 300px;
+  width: 400px;
   height: 379px;
+}
+.mission img{
+  width: 450px;
+  height: 450px;
+}
+.tab-content{
+  padding-left: 50px;
+}
+.nav {
+  font-weight: 500;
 }
 
 @media screen and (min-width: 700px) {
