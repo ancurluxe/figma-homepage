@@ -207,15 +207,15 @@
   height: 379px;
 }
 .mission img{
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 379px;
 }
 .tab-content{
-  padding-left: 50px;
+padding: 10px;
+padding-left: 30px;
+
 }
-.nav {
-  font-weight: 500;
-}
+
 
 @media screen and (min-width: 700px) {
   .flight img {
@@ -291,7 +291,9 @@
   background-color: #325372 !important;
   border-color: #325372 !important;
 }
-
+.bold{
+  font-weight: 700 !important;
+}
 .blog-img-wrapper img {
   height: 190px;
   width: 350px;
@@ -492,7 +494,7 @@
   border: 1px solid #ccc;
 }
 .bold {
-  color: #325372;
+  color: #0f0f0f;
 }
 .contact {
   display: flex;
